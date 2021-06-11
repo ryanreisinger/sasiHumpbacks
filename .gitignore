@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Private data
+/data_private/
+
+# Figures
+/output/figs/
