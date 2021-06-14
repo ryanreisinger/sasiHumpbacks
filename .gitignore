@@ -43,3 +43,4 @@ vignettes/*.pdf
 
 # Figures
 /output/figs/
+.Rproj.user
