@@ -86,6 +86,8 @@ ggplot(data = hold, aes(x = CHLA_0m, y = g, group = stock)) +
   labs(title = "CHLA", x = "Chlorophyll a concentration (mg/m^3)", y = "Move persistence")
 dev.off()
 
+if (FALSE) {
+  
 #------------------------
 # Plot example chlorophyll for supplement
 library(SOmap)
@@ -126,3 +128,5 @@ SOplot(SOproj(example_chla), col = rev(ocean.algae(125)), add = T,
        legend.args = list(text = "log10(CHLA)"))
 
 dev.off()
+
+}
